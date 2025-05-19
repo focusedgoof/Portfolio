@@ -1,0 +1,144 @@
+.skill .container {
+  padding-bottom: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Skill Items */
+.skill .skill-item {
+  flex: 0 0 32%;
+  max-width: 32%;
+  display: flex;
+  justify-content: center;
+}
+
+.skill .skill-item .skill-item-inner {
+  background-color: var(--bg-black-100);
+  border: 1px solid var(--bg-black-50);
+  padding: 10px 15px;
+  text-align: center;
+  transition: all 0.35s ease;
+  width: 100%;
+}
+
+.skill .skill-item .skill-item-inner:hover {
+  cursor: default;
+  transform: translateY(-5px);
+  border: 1px solid #3bd6d6;
+  box-shadow: 0 0 20px rgba(92, 88, 148, 0.15);
+}
+
+.skill .skill-item .skill-item-inner .icon {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: var(--skin-color);
+  transition: all 0.2s ease;
+  font-size: 28px;
+}
+
+.skill .skill-item .skill-item-inner:hover .icon {
+  font-size: 35px;
+  color: #ffffff;
+  background: var(--skin-color);
+}
+
+.skill .skill-item .skill-item-inner h4 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: var(--text-black-900);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.skill .skill-item .skill-item-inner p {
+  font-size: 0.9rem;
+  color: var(--text-black-700);
+  line-height: 25px;
+}
+
+.skill .skill-item .skill-item-inner:hover p {
+  color: #3bd6d6;
+}
+
+/* Logos Section */
+.skill .skill-logo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Language Labels */
+.skill .skill-lang p,
+.skill .skill-framework p {
+  color: var(--skin-color);
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px 0 20px;
+  text-align: center;
+}
+
+/* Static Logos */
+.skill .skill-logo .skill-lang .skill-logo-non-transition {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Logos - both static and animated */
+.skill .skill-logo-non-transition img,
+.skill .skill-logo-transition img {
+  height: 50px;
+  width: 50px;
+  margin: 0 5px;
+}
+
+/* Animated Logo Row */
+.skill .skill-logo-transition {
+  display: flex;
+  padding: 0;
+  white-space: nowrap;
+  animation: slide 40s linear infinite;
+  gap: 15px;
+  justify-content: flex-start;
+}
+
+/* Animation Keyframes */
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive Handling */
+@media (max-width: 992px) {
+  .skill .skill-item {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .skill .skill-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .skill .skill-logo-transition {
+    gap: 20px;
+  }
+}
