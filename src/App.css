@@ -9,6 +9,8 @@
   --img-border: #7dd3fc;
   --accent-cyan: #3bd6d6;
   --skin-color: #0478A8;
+  --btn-color:#03415E;
+
 }
 
 body {
@@ -132,11 +134,11 @@ ul {
 
 .btn {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: bold;
   padding: 12px 35px;
   color: white;
   border-radius: 40px;
-  background: var(--skin-color);
+  background: var(--btn-color);
   border: none;
   transition: transform 0.3s ease;
   display: inline-block;

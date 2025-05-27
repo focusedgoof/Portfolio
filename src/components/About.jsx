@@ -43,16 +43,16 @@ const About = () => {
                                         target="_blank"> LinkedIn</a></p>
                                 <p class="small-text"> <a href="https://medium.com/@sakshi12502negi"
                                         target="_blank">Medium</a></p>
-                                <p class="small-text"> <a href="https://github.com/joy-i"
+                                <p class="small-text"> <a href="https://github.com/focusedgoof"
                                         target="_blank">Github</a></p>
                             </div>
                         </div>
                         <div class="about-item">
                             <div class="abt-text">
                                 <p class="large-text">Socials</p>
-                                <p class="small-text">Instagram </p>
-                                <p class="small-text">Twitter</p>
-                                <p class="small-text">Snapchat</p>
+                                <p class="small-text"><a href="https://www.instagram.com/skshi_negi_22/" ></a> </p>
+                                <p class="small-text"><a href="https://twitter.com/sakshinegi2001" target="_blank">Twitter</a></p>
+                                <p class="small-text"><a href="https://www.snapchat.com/add/snegi6133?share_id=2B_ncZGklf8&locale=en-GB" target="_blank">Snapchat</a></p>
                             </div>
                         </div>
                         <div class="about-item">

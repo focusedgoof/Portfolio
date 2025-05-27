@@ -83,7 +83,7 @@ const Aside = () => {
       </ul>
 
       <div className="aside-social">
-        <a href="https://www.instagram.com/skshi_negi_22/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
+        <a href="https://scholar.google.com/citations?user=2C5mSX8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-google-scholar"></i></a>
         <a href="https://twitter.com/sakshinegi2001" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-x-twitter"></i></a>
         <a href="https://medium.com/@sakshi12502negi" target="_blank" rel="noopener noreferrer"><i className="fab fa-medium"></i></a>
         <a href="https://www.linkedin.com/in/sakshi-negi-2001/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
