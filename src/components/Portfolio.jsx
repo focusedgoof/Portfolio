@@ -219,10 +219,10 @@ const Portfolio = () => {
 
   const renderSection = (heading, items, defaultType, isProject = false) => (
     <>
-    <div class="row"> <div className="portfolio-heading">
+    <div class="portfolio-category"> <div className="portfolio-heading">
         <h2>{heading}</h2>
       </div>
-      <div className="row portfolio-item">
+      <div className="portfolio-category portfolio-item">
         {items.map((item, index) => (
           <div
             key={index}

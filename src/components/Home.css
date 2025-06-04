@@ -60,10 +60,14 @@ h3.my-profession {
 }
 
 .home .home-img #profile {
-    border-radius: 50%;
+    border-radius: 5%;
     height: 60vh;
-    width: 25vw;
-    border: 5px solid var(--img-border);
+    width: 17vw;
+    border: 2px solid var(--text-black-900);
+}
+
+.home .home-img #profile :hover {
+    border: 2px solid var(--btn-color);
 }
 
 /*

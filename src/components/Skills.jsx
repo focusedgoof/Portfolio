@@ -11,7 +11,7 @@ const Skills = () => {
                             <h2>Skills</h2>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="skill-category">
                       {/*skill item Start*/}
                         <div class="skill-item padd-15">
                             <div class="skill-item-inner">

@@ -1,12 +1,18 @@
 .portfolio .container {
-    padding: 30px 20px;
+    padding: 2.5% 1.67%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1200px;
+    min-width: 80%;
     margin: auto;
 }
 
+.portfolio-category{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    position:relative;
+}
 .portfolio .portfolio-heading {
     margin-bottom: 0.5rem 0;
 }
@@ -19,27 +25,23 @@
 
 .portfolio-item {
     display: flex;
-    flex-direction:row-reverse;
-    flex-wrap: nowrap;
     gap: 2rem;
     overflow-x: auto;
-    padding-bottom: 1rem;
     width: 100%;
 }
 
 .portfolio-item-inner {
+    display: flex;
     background-color: var(--bg-black-100);
     border: 1px solid var(--bg-black-50);
-    padding: 2rem;
+    padding: 5%;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
-    margin: 1rem 0 2rem 0;
-    height: 15vh;
-    width: 21vw;
-    display: flex;
+    margin: 2% 0 0 0;
+    height: 2.5%;
+    width: 30%;
     justify-content: center;
-
 }
 
 .portfolio-item-inner:hover {
@@ -74,16 +76,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70vw;;
-    height: 70vh;
+    width: 70%;
+    height: 70%;
     overflow-y: auto;
-    background-color: rgba(0, 0, 0, 0.9); 
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 12px;
-    padding: 1.5rem 2rem;
+    padding: 12.5% 16.67%;
     z-index: 1000;
     opacity: 0;
     visibility: hidden;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 1.25% 2.92% rgba(0, 0, 0, 0.7);
     transition: opacity 0.35s ease, transform 0.3s ease;
     color: #e2e8f0;
 }
@@ -96,8 +98,8 @@
 
 .portfolio-popup-close {
     position: absolute;
-    top: 0.5rem;
-    right: 1.5rem;
+    top: 4.17%;
+    right: 12.5%;
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--accent-cyan);
@@ -113,13 +115,13 @@
     font-size: 1.5rem;
     font-weight: 600;
     color: #ffffff;
-    margin-bottom: 1rem;
+    margin-bottom: 8.33%;
 }
 
 .details-description {
     font-size: 1rem;
     color: #cbd5e1;
-    margin-bottom: 1.5rem;
+    margin-bottom: 12.5%;
 }
 
 .details-info {
@@ -129,7 +131,7 @@
 }
 
 .details-info li {
-    margin-bottom: 0.75rem;
+    margin-bottom: 6.25%;
 }
 
 .details-info li a {
@@ -139,18 +141,4 @@
 
 .details-info span {
     font-weight: 400;
-}
-
-@media (max-width: 768px) {
-    .portfolio-heading h2 {
-        font-size: 1.5rem;
-    }
-
-    .portfolio-item {
-        grid-template-columns: 1fr;
-    }
-
-    .portfolio-item-inner {
-        padding: 1.5rem;
-    }
 }

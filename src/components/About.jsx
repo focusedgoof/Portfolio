@@ -39,9 +39,9 @@ const About = () => {
                             <div class="abt-text">
                                 <p class="large-text"> Network</p>
                                 <p class="small-text"><a
-                                        href="https://www.linkedin.com/in/sakshi-negi-2001/"
-                                        target="_blank"> LinkedIn</a></p>
-                                <p class="small-text"> <a href="https://medium.com/@sakshi12502negi"
+                                    href="https://www.linkedin.com/in/sakshi-negi-2001/"
+                                    target="_blank"> LinkedIn</a></p>
+                                <p class="small-text"> <a href="https://medium.com/@focusedgoof"
                                         target="_blank">Medium</a></p>
                                 <p class="small-text"> <a href="https://github.com/focusedgoof"
                                         target="_blank">Github</a></p>
@@ -50,7 +50,7 @@ const About = () => {
                         <div class="about-item">
                             <div class="abt-text">
                                 <p class="large-text">Socials</p>
-                                <p class="small-text"><a href="https://www.instagram.com/skshi_negi_22/" ></a> </p>
+                                <p class="small-text"><a href="https://www.instagram.com/skshi_negi_22/" >Instagram</a> </p>
                                 <p class="small-text"><a href="https://twitter.com/sakshinegi2001" target="_blank">Twitter</a></p>
                                 <p class="small-text"><a href="https://www.snapchat.com/add/snegi6133?share_id=2B_ncZGklf8&locale=en-GB" target="_blank">Snapchat</a></p>
                             </div>
@@ -68,6 +68,7 @@ const About = () => {
                                 <p class="large-text">Community</p>
                                 <p class="small-text">DITU ACM SC</p>
                                 <p class="small-text">MAD(NGO)</p>
+                                <p class="small-text"><a href="https://topmate.io/sakshi_negi" target="_blank">Topmate</a></p>
                             </div>
                         </div>
                     </div>

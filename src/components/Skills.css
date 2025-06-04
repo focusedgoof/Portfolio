@@ -7,6 +7,13 @@
   gap: 20px;
 }
 
+.skill-category{
+    display:flex;
+    flex-wrap:wrap;
+    position:relative;
+    justify-content: center;
+}
+
 /* Skill Items */
 .skill .skill-item {
   flex: 0 0 32%;
@@ -124,21 +131,3 @@
   }
 }
 
-/* Responsive Handling */
-@media (max-width: 992px) {
-  .skill .skill-item {
-    flex: 0 0 45%;
-    max-width: 45%;
-  }
-}
-
-@media (max-width: 600px) {
-  .skill .skill-item {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .skill .skill-logo-transition {
-    gap: 20px;
-  }
-}

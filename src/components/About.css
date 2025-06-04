@@ -38,6 +38,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    padding: 3.5rem 0 5rem;
 }
 
 .about-container .right-about .about-item {
@@ -204,58 +205,3 @@
     font-size: 0.85rem;
 }
 
-/* RESPONSIVENESS */
-@media (max-width: 992px) {
-    .about-container {
-        grid-template-columns: 1fr;
-    }
-
-    .about-container .left-about {
-        padding-right: 0;
-
-    }
-
-    .about-container .right-about {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .about .about-content .education,
-    .about .about-content .experience {
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    .about-container .right-about {
-        grid-template-columns: 1fr;
-    }
-
-    .abt-text .large-text {
-        font-size: 2rem;
-    }
-
-    .abt-text .small-text {
-        font-size: 0.95rem;
-
-        a:link {
-            color: #ffffff;
-        }
-    }
-
-    .left-about h4 {
-        font-size: 1.5rem;
-    }
-
-    .left-about p {
-        font-size: 1rem;
-
-    }
-
-    .timeline-title {
-        font-size: 1rem;
-    }
-
-    .timeline-text {
-        font-size: 0.95rem;
-    }
-}
