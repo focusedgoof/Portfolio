@@ -1,0 +1,96 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    color: var(--text-black-900);
+    gap: 2rem;
+}
+
+h3.hello {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.typing {
+    color: var(--skin-color);
+}
+
+h3.my-profession {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.home .home-info {
+    margin-top: 5%;
+    margin-left: 1.5%;
+    flex: 1 1 55%;
+    max-width: 58.5%;
+}
+
+.home .home-img {
+    flex: 1 1 37%;
+    max-width: 37%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding: 0;
+}
+
+.home .home-img #profile {
+    border-radius: 5%;
+    height: 60vh;
+    width: 17vw;
+    border: 2px solid var(--text-black-900);
+}
+
+/* Desktop vs mobile profile images */
+.mobile-profile {
+    display: none;
+}
+
+.desktop-profile {
+    display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .home .home-info {
+        order: 1;
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .home .home-img {
+        order: 2;
+        max-width: 50%;
+        margin: 2vh auto;
+    }
+
+    .home .home-img #profile {
+        width: 60vw;
+        max-width: 100%;
+        height: auto;
+        max-height: 45vh;
+        border: 2px solid var(--text-black-900);
+    }
+
+    .desktop-profile {
+        display: none;
+    }
+
+    .mobile-profile {
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .home-info p {
+        margin: 20px 0;
+    }
+}

@@ -205,3 +205,64 @@
     font-size: 0.85rem;
 }
 
+@media screen and (max-width: 768px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+  }
+
+  .about-container .right-about {
+    display: none;
+  }
+
+  .about .about-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .about .about-content .education,
+  .about .about-content .experience {
+    width: 100%;
+  }
+
+  .about-container .about-item .abt-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .abt-text .large-text {
+    font-size: 1.5rem;
+  }
+
+  .abt-text .small-text {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+
+  .left-about p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+  }
+
+  .timeline {
+    padding: 1rem;
+  }
+
+  .timeline-title {
+    font-size: 1rem;
+  }
+
+  .timeline-text {
+    font-size: 0.9rem;
+  }
+
+  .timeline .highlight {
+    font-size: 0.8rem;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+}
+

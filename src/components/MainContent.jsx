@@ -1,9 +1,9 @@
 import React from "react";
-import Home from "./Home";
-import About from "./About";
-import Skills from "./Skills";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Skills from "./pages/Skills/Skills";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Contact from "./pages/Contact/Contact";
 
 const MainContent = () => {
   return (
