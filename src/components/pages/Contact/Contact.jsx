@@ -36,13 +36,6 @@ const Contact = () => {
               <h4>Email</h4>
               <p>sakshi12502negi@gmail.com</p>
             </div>
-            <div className="contact-info-item padd-15">
-              <div className="icon">
-                <i className="fa fa-globe-asia"></i>
-              </div>
-              <h4>Website</h4>
-              <p>www.xyz.com</p>
-            </div>
             {/* Contact Info End */}
           </div>
         </div>
