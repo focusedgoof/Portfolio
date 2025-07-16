@@ -26,6 +26,10 @@ h3.my-profession {
     max-width: 58.5%;
 }
 
+.home .home-info p{
+    margin-bottom:3%;
+}
+
 .home .home-img {
     flex: 1 1 37%;
     max-width: 37%;
