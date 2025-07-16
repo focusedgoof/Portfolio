@@ -206,7 +206,7 @@ hr {
 
   .portfolio .portfolio-popup {
     width: 90%;
-    height: 90%;
+    height: 85%;
     padding: 10% 5%;
     transform: translate(-50%, -50%) scale(1);
   }
@@ -232,7 +232,6 @@ hr {
   }
 
   .details-info li {
-    margin-bottom: 4%;
     font-size: 0.9rem;
   }
 }
