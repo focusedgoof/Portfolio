@@ -13,7 +13,7 @@ const Contact = () => {
 
         <div>
           <h4 className="contact-title padd-15">FEEL FREE TO REACH OUT</h4>
-          <div className="row">
+          <div className="row contact-info">
             {/* Contact Info Start */}
             <div className="contact-info-item padd-15">
               <div className="icon">
