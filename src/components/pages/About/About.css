@@ -266,3 +266,69 @@
   }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .about-container {
+    grid-template-columns: 1fr; 
+    padding: 2.5rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .about-container .right-about {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+
+  .about .about-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .about .about-content .education,
+  .about .about-content .experience {
+    width: 100%;
+  }
+
+  .abt-text .large-text {
+    font-size: 1.75rem;
+  }
+
+  .abt-text .small-text {
+    font-size: 0.95rem;
+    letter-spacing: 1.2px;
+  }
+
+  .left-about p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+  }
+
+  .timeline {
+    padding: 1.25rem;
+  }
+
+  .timeline-title {
+    font-size: 1.05rem;
+  }
+
+  .timeline-text {
+    font-size: 0.95rem;
+  }
+
+  .timeline .highlight {
+    font-size: 0.85rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
+
+  .btn-con .main-btn {
+    padding: 0.6rem 1rem;
+  }
+
+  .btn-text {
+    font-size: 0.95rem;
+  }
+}

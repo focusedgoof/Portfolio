@@ -26,8 +26,8 @@ h3.my-profession {
     max-width: 58.5%;
 }
 
-.home .home-info p{
-    margin-bottom:3%;
+.home .home-info p {
+    margin-bottom: 3%;
 }
 
 .home .home-img {
@@ -41,7 +41,6 @@ h3.my-profession {
 
 .home .home-img #profile {
     border-radius: 5%;
-    height: 60vh;
     width: 17vw;
     border: 2px solid var(--text-black-900);
 }
@@ -96,5 +95,60 @@ h3.my-profession {
 
     .home-info p {
         margin: 20px 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .home {
+        flex-direction: column;
+        padding: 2% 5%;
+        text-align: center;
+    }
+
+    .home .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .home .home-info {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-left: 0;
+        padding: 0 5%;
+    }
+
+    .home .home-img {
+        max-width: 60%;
+        margin: 2vh auto;
+    }
+
+    .home .home-img #profile {
+        width: 40vw;
+        height: auto;
+        max-height: 50vh;
+    }
+
+    .desktop-profile {
+        display: none;
+    }
+
+    .mobile-profile {
+        display: block;
+        margin: 2vh auto;
+    }
+
+    h3.my-profession,
+    h3.hello {
+        font-size: 26px;
+    }
+
+    .home-info p {
+        font-size: 1rem;
+        margin: 20px 0;
+    }
+
+    .btn {
+        margin-top: 15px;
     }
 }
