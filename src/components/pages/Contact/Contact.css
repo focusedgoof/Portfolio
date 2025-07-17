@@ -149,3 +149,68 @@
     margin: 0 2%;
   }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .contact-title,
+  .contact-sub-title {
+    font-size: 1.3rem;
+    margin-bottom: 2%;
+  }
+
+  .contact-info {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 40px;
+
+  }
+
+  .contact .contact-info-item {
+    flex: 0 0 45%;
+    max-width: 45%;
+    margin-bottom: 0;
+    font-size: 0.95rem;
+  }
+
+  .contact .contact-info-item h4 {
+    font-size: 1.1rem;
+  }
+
+  .contact .contact-info-item p {
+    font-size: 0.95rem;
+  }
+
+  .contact .form {
+    margin: 0 3%;
+  }
+
+  .contact .contact-form .col-6 {
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+
+  .contact .contact-form .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .contact .contact-form .form-item {
+    margin-bottom: 25px;
+  }
+
+  .contact .contact-form .form-item .form-control {
+    font-size: 15px;
+    padding: 10px 22px;
+  }
+
+  .contact .contact-form .form-item textarea.form-control {
+    height: 120px;
+  }
+
+  .contact .contact-form .btn {
+    width: auto;
+    font-size: 16px;
+    padding: 0 40px;
+  }
+}

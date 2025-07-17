@@ -1,27 +1,27 @@
 .aside {
-     width: 21vw;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  padding: 30px 15px;
-  background: rgba(31, 41, 55, 0.75); 
-  border-right: 1px solid rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  box-shadow: 6px 0 20px rgba(0, 0, 0, 0.5);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 10;
-  transition: all 0.4s ease-in-out;
-  font-size: 1.1rem;
-  transform-style: preserve-3d;
+    width: 21vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 30px 15px;
+    background: rgba(31, 41, 55, 0.75);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    box-shadow: 6px 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+    font-size: 1.1rem;
+    transform-style: preserve-3d;
 }
 
 .aside:hover {
-  box-shadow: 10px 0 25px rgba(59, 214, 214, 0.10);
-  transform: perspective(600px) translateZ(10px);
+    box-shadow: 10px 0 25px rgba(59, 214, 214, 0.10);
+    transform: perspective(600px) translateZ(10px);
 }
 
 
@@ -132,8 +132,8 @@
 }
 
 .aside .nav li a.active {
-  color: var(--skin-color);
-  font-size: 1.7rem;
+    color: var(--skin-color);
+    font-size: 1.7rem;
 }
 
 .aside .nav li a i {
@@ -169,18 +169,35 @@
     }
 }
 
-@media (max-width: 992px) {
+
+@media (min-width: 769px) and (max-width: 1024px) {
     .aside {
-        left: -280px;
-        width: 280px;
+        width: 250px;
+        padding: 25px 15px;
         font-size: 1rem;
     }
 
-    .aside.open {
-        left: 0;
+    .aside .logo a {
+        font-size: 1.7rem;
+        letter-spacing: 4px;
     }
 
-    .aside .nav-toggler {
-        display: flex;
+    .aside .nav {
+        width: 90%;
     }
+
+    .aside .nav li a {
+        font-size: 1.1rem;
+        padding: 8px 14px;
+    }
+
+    .aside .nav li a.active {
+        font-size: 1.4rem;
+    }
+
+    .aside .aside-social {
+        font-size: 1.5rem;
+    }
+
+
 }
